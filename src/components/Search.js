@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Food from "./Food";
+import FoodForm from "./FoodForm";
 
 
 function Search({ search, setSearch, food, setFood }) {
+  const[newFoods, setNewFoods]=useState([])
   function handleSearch(e){
     setSearch(e.target.value)
   }
@@ -12,10 +14,15 @@ useEffect(()=>{
   .then(data=>setFood(data))
 },[])
 
+function addNewFood(newFoods){
+  setNewFoods(newFoods)
+}
+
 const foodToDisplay = food.filter(foods => foods.name.toLowerCase().includes(search.toLowerCase()))
   return (
     <>
       <h1>Food and Ingredients Containing Known Potential Migraine Triggers</h1>
+      <FoodForm addNewFood={addNewFood} newFoods={newFoods} setNewFoods={setNewFoods}/>
       <div className="searchbar">
         <label htmlFor="search">Search Food:</label>
         <input
