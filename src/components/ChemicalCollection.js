@@ -1,23 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ChemicalCard from "./ChemicalCard";
+import {Card, Group} from "semantic-ui-react"
 
-function ChemicalCollection() {
-  const migraineChemicalsList = [
-    { id: 1, name: "Sulfites" },
-    { id: 2, name: "Sulfates" },
-    { id: 3, name: "Nitrites" },
-    { id: 4, name: "Nitrates" },
-    { id: 5, name: "Tyramine" },
-    { id: 6, name: "Histamine" },
-    { id: 7, name: "Caffeine" },
-    { id: 8, name: "MSG" },
-  ];
+
+function ChemicalCollection({chemicals, setChemicals}) {
+  useEffect(()=>{
+    fetch("http://localhost:3000/chemicals")
+    .then(res=>res.json())
+    .then(data=>setChemicals(data)) 
+  },[])
   return (
-    <ul className="cards">
-      {migraineChemicalsList.map((chemical) => {
-        return <ChemicalCard key={chemical.id} name={chemical.name} />;
-      })}
-    </ul>
+  <Card.Group columns={3} divided>
+        { <ul className="cards">
+            {chemicals.map((chemical) => {
+             return <ChemicalCard key={chemical.id} name={chemical.name} image={chemical.image} food={chemical.foods}/>;
+           })}
+        </ul>}
+      </Card.Group> 
   );
 }
 

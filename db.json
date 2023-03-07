@@ -1,0 +1,188 @@
+{
+    "foods": [
+    { "id": 1, "name": "Avocados", "chemicals": ["Tyramine"] },
+    { "id": 2, "name": "Beets", "chemicals": ["Nitrates"] },
+    { "id": 3, "name": "Eggplants", "chemicals": ["Histamine ", "Tyramine", " Nitrites"] },
+    { "id": 4, "name": "Fava Beans or Broad Beans", "chemicals": ["Tyramine"] },
+    { "id": 5, "name": "Green Peas", "chemicals": ["Tyramine"] },
+    { "id": 6, "name": "Olives", "chemicals": ["Histamine", " Tyramine"] },
+    {
+        "id": 7, "name": "Onions",
+        "chemicals": [
+        "None of the known migraine triggers, but listed in traditional migraine diets"
+      ]
+    },
+    { "id": 8, "name": "Potatos", "chemicals": ["Tyramine"] },
+    { "id": 9, "name": "Pumpkins", "chemicals": ["Histamine"] },
+    { "id": 10, "name": "Snow Peas", "chemicals": ["Tyramine"] },
+    { "id": 11, "name": "Spinach", "chemicals": ["Histamine", " Nitrites"] },
+    {
+        "id": 12, "name": "Tomatoes and All Tomato Products",
+      "chemicals": ["Histamine", " Tyramine", " Sulfites", " Nitrites"]
+    },
+    { "id": 13, "name": "Apricots", "chemicals": ["Histamine"] },
+    { "id": 14, "name": "Bananas", "chemicals": ["Tyramine"] },
+    { "id": 15, "name": "Cherries", "chemicals": ["Histamine"] },
+    {
+        "id": 16, "name": "Citrus: Oranges, Limes, Lemons, Grapefruit",
+      "chemicals": ["Histamine"]
+    },
+    { "id": 17, "name": "Cranberries", "chemicals": ["Histamine"] },
+    { "id": 18, "name": "Currants", "chemicals": ["Histamine"] },
+    { "id": 19, "name": "Dates", "chemicals": ["Histamine"] },
+    { "id": 20, "name": "Grapes", "chemicals": ["Sulfites"] },
+    { "id": 21, "name": "Loganberries", "chemicals": ["Histamine"] },
+    { "id": 22, "name": "Mulberries", "chemicals": ["Histamine"] },
+    { "id": 23, "name": "Nectarines", "chemicals": ["Histamine"] },
+    { "id": 24, "name": "Papayas", "chemicals": ["Histamine"] },
+    { "id": 25, "name": "Peaches", "chemicals": ["Histamine"] },
+    { "id": 26, "name": "Pineapples", "chemicals": ["Histamine"] },
+    { "id": 27, "name": "Plums", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 28, "name": "Prunes", "chemicals": ["Histamine", " Tyramine", " Sulfites"] },
+    { "id": 29, "name": "Raisins", "chemicals": ["Histamine", " Tyramine", " Sulfites"] },
+    { "id": 30, "name": "Raspberries", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 31, "name": "Strawberries", "chemicals": ["Histamine"] },
+    { "id": 32, "name": "Any Overripe Fruit", "chemicals": ["Tyramine"] },
+    {
+        "id": 33, "name": "Any Dried Fruit that doesn't say sulfite-free on the packaging",
+      "chemicals": ["Sulfites"]
+    },
+    {
+        "id": 34, "name": "Cured, smoked, aged, processed, canned, or tenderized meats—like bacon, hot dogs, prosciutto, pepperoni, lunch meat, etc.",
+      "chemicals": ["Histamine", " Tyramine", " Nitrates"]
+    },
+    {
+        "id": 35, "name": "Pre-Ground Meat",
+      "chemicals": [
+        "Histamine",
+        " ...though, if you grind it yourself or have a butcher grind it right before you buy it, ground meat should be OK."
+      ]
+    },
+    {
+        "id": 36, "name": "Old or Leftover Meat",
+      "chemicals": [
+        "Histamine",
+        " Tyramine",
+        "Meat should be cooked or frozen within a day of purchasing, cooked leftovers should be frozen immediately."
+      ]
+    },
+    { "id": 37, "name": "Liver from Any Animal", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 38, "name": "Any Game Meat", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 39, "name": "All Fish and Shellfish", "chemicals": ["Histamine"] },
+    { "id": 40, "name": "Raw Egg Whites", "chemicals": ["Histamine"] },
+    {
+        "id": 41, "name": "Any Fermented Dairy Products (Cheese, Sour Cream, Processed Cheese, Buttermilk, Yogurt, Kefir",
+      "chemicals": ["Histamine", " MSG", " Tyramine"]
+    },
+    {
+        "id": 42, "name": "Soybeans and All Soy Products",
+      "chemicals": ["Histamine", " Sulfites"]
+    },
+    { "id": 43, "name": "Red Beans", "chemicals": ["Histamine"] },
+    { "id": 44, "name": "Bleached Flour", "chemicals": ["Histamine"] },
+    { "id": 45, "name": "Modified Flour", "chemicals": ["Sulfites"] },
+    { "id": 46, "name": "Modified Gluten", "chemicals": ["Sulfites"] },
+    { "id": 47, "name": "Barley Malt", "chemicals": ["Sulfites"] },
+    {
+        "id": 48, "name": "Vinegar",
+      "chemicals": [
+        "Histamine",
+        " Tyramine",
+        " Nitrites",
+        " Nitrates",
+        " Sulfites"
+      ]
+    },
+    {
+        "id": 49, "name": "Any Fats or Oils that containe color and/or preservatives",
+      "chemicals": ["Histamine"]
+    },
+    { "id": 50, "name": "Soybean Oil", "chemicals": [""] },
+    { "id": 51, "name": "Margarine", "chemicals": [""] },
+    {
+        "id": 52, "name": "Prepared Salad Dressings with Restricted Ingredients (which are most of them)",
+      "chemicals": [""]
+    },
+    { "id": 53, "name": "Prepared Gravies", "chemicals": [""] },
+    {
+        "id": 54, "name": "Prepared Condiments and Relishes, including Ketchup, Mustard, Sauerkraut",
+      "chemicals": ["Histamine", " Sulfites", " MSG"]
+    },
+    { "id": 55, "name": "Soy Sauce", "chemicals": ["Histamine", " MSG", " Tyramine"] },
+    { "id": 56, "name": "Teriyaki Sauce", "chemicals": ["Tyramine"] },
+    { "id": 57, "name": "Fish Sauce", "chemicals": ["Tyramine", " MSG"] },
+    { "id": 58, "name": "Anise", "chemicals": ["Histamine"] },
+    { "id": 59, "name": "Cinnamon", "chemicals": ["Histamine"] },
+    { "id": 60, "name": "Cloves", "chemicals": ["Histamine"] },
+    { "id": 61, "name": "Curry Powder", "chemicals": ["Histamine"] },
+    { "id": 62, "name": "Hot Paprika", "chemicals": ["Histamine"] },
+    { "id": 63, "name": "Nutmeg", "chemicals": ["Histamine"] },
+    {
+        "id": 64, "name": "Prepared Foods Labeled With Spices",
+      "chemicals": ["Histamine", " MSG"]
+    },
+    { "id": 65, "name": "All Chocolate and Cocoa", "chemicals": ["Histamine"] },
+    { "id": 66, "name": "Flavored Gelatin", "chemicals": ["Histamine"] },
+    { "id": 67, "name": "Artificial Sweeteners", "chemicals": ["Histamine"] },
+    { "id": 68, "name": "Flavored Syrups", "chemicals": ["Histamine"] },
+    { "id": 69, "name": "Prepared Dessert Fillings", "chemicals": ["Histamine"] },
+    { "id": 70, "name": "Prepared Icing or Frosting", "chemicals": ["Histamine"] },
+    { "id": 71, "name": "Cake Decorations", "chemicals": ["Histamine"] },
+    { "id": 72, "name": "Commercial Candies", "chemicals": ["Histamine"] },
+    { "id": 73, "name": "Mincemeat", "chemicals": ["Histamine"] },
+    { "id": 74, "name": "Miso", "chemicals": ["Histamine", " Tyramine"] },
+    {
+        "id": 75, "name": "Pickles",
+      "chemicals": ["Histamine", " Tyramine", " Sulfites", " Nitrites", " MSG"]
+    },
+    { "id": 76, "name": "Anything Fermented", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 77, "name": "Coleslaw", "chemicals": ["Nitrates", " Sulfites"] },
+    {
+        "id": 78, "name": "Fruit Juices and Cocktails made with Restricted Ingredients",
+      "chemicals": ["Histamine"]
+    },
+    {
+        "id": 79, "name": "Carbonated Beverages other than Mineral Water",
+      "chemicals": ["Histamine"]
+    },
+    { "id": 80, "name": "Soda", "chemicals": ["Caffeine", " Sulfites", " Histamine"] },
+    {
+        "id": 81, "name": "Coffee",
+      "chemicals": [
+        "Caffeine",
+        "Decaf is ok, only if it is decaffeinated without chemicals."
+      ]
+    },
+    { "id": 82, "name": "Tea", "chemicals": ["Histamine", " Caffeine"] },
+    {
+        "id": 83, "name": "All Drinks with Flavor or Spices",
+      "chemicals": ["Histamine", " MSG"]
+    },
+    { "id": 84, "name": "Fermented Beverages", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 85, "name": "All Alcohol", "chemicals": ["Histamine", " Tyramine"] },
+    { "id": 86, "name": "Potassium Hydrogen Sulfite", "chemicals": ["Sulfite"] },
+    { "id": 87, "name": "Potassium Meatbisulfite", "chemicals": ["Sulfite"] },
+    { "id": 88, "name": "Potassium Sulfite", "chemicals": ["Sulfite"] },
+    { "id": 89, "name": "Preservatives", "chemicals": ["Histmaine", " MSG"] },
+    { "id": 90, "name": "Sodium Bisulfite", "chemicals": ["Sulfite"] },
+    { "id": 91, "name": "Sodium Hydrogen Sulfite ", "chemicals": ["Sulfite"] },
+    { "id": 92, "name": "Sodium Meatbisulfite", "chemicals": ["Sulfite"] },
+    { "id": 93, "name": "Sodium Sulfite", "chemicals": ["Sulfite"] },
+    { "id": 94, "name": "Sulfite Ammonia Caramel", "chemicals": ["Sulfite"] },
+    { "id": 95, "name": "Sulfur Dioxide", "chemicals": ["Sulfite"] },
+    {
+        "id": 96, "name": "Yeast, Yeast Extract, Brewer's Yeast, Nutritional Yeast",
+      "chemicals": ["Tyramine", " MSG"]
+    }
+],
+ "chemicals": [
+    { "id": 1, "name": "Sulfites", "image": "https://www.farmfreshnuts.com/wp-content/uploads/2017/11/apricots.jpg", "foods":"Dried Fruits" },
+    { "id": 2, "name": "Sulfates", "image": "https://img.freepik.com/free-photo/red-wine-pouring-into-wine-glass_53876-105948.jpg", "foods":"Wine"  },
+    { "id": 3, "name": "Nitrites", "image": "https://cw33.com/wp-content/uploads/sites/8/2022/07/bacon.jpg?strip=1", "foods":"Cured Meat"  },
+    { "id": 4, "name": "Nitrates", "image": "https://images.heb.com/is/image/HEBGrocery/000320214-1", "foods":"Leafy Green Vegetables"  },
+    { "id": 5, "name": "Tyramine", "image": "https://m.media-amazon.com/images/I/41yH12tBCzL.jpg", "foods":"Aged Cheese"  },
+    { "id": 6, "name": "Histamine", "image": "https://www.colonialspirits.com/wp-content/uploads/2020/05/Smirnoff_Red_Vodka_1.75L-scaled.jpg", "foods":"Alcohol"  },
+    { "id": 7, "name": "Caffeine", "image": "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1025739950_ddrzvl.jpg", "foods":"Coffee" },
+    { "id": 8, "name": "MSG", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wid7GxV67Kis-MAP7JFEB8itc0tKxHYe7g&usqp=CAU", "foods":"Takeout & Processed Foods" }
+ ]
+}

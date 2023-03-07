@@ -1,23 +1,21 @@
 import React, { useState } from "react";
+import {Card} from "semantic-ui-react"
 
-function ChemicalCard({ migraineChemicalsList }) {
+function ChemicalCard({ name, image, food }) {
   const [showFront, setShowFront] = useState(true);
 
   function handleClick() {
     setShowFront((showFront) => !showFront);
   }
 
-  return (
-    <ChemicalCard>
-      {/* <div onClick={handleClick}>
-        <div className="image">
-          <img src={showFront ? sprites.front : sprites.back} alt={name} />
-        </div>
-        <div className="content">
-          <div className="header">{name}</div>
-        </div>
-      </div> */}
-    </ChemicalCard>
+  return (    
+<Card
+    image={image}
+    header={name}
+    meta={food}
+    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+  />
+
   );
 }
 
