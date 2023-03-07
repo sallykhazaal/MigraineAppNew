@@ -12,7 +12,7 @@ function FoodForm({addNewFood, setNewFoods, newFoods}){
       chemicals: formChemicals,
 
     }
-    fetch("http://localhost:3001/pokemon",{
+    fetch("http://localhost:3000/triggers",{
       method:"POST",
       headers: {
         'Content-Type':'application/json'
@@ -21,7 +21,9 @@ function FoodForm({addNewFood, setNewFoods, newFoods}){
     })
     .then(res=>res.json())
     .then(data=>addNewFood(data))
+    console.log(newFoods)
   }
+
 
     return(
         <>

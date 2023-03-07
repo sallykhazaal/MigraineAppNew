@@ -21,12 +21,3 @@ function ChemicalCollection({chemicals, setChemicals}) {
 }
 
 export default ChemicalCollection;
-
-// const chemicalCards = migraineChemicalsList.map((chemical) => (
-//   <ChemicalCard
-//     migraineChemicalsList={migraineChemicalsList}
-//     key={chemical.id}
-//     name={chemical.name}
-//   />
-// ));
-// return <></>;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Food from "./Food";
 import FoodForm from "./FoodForm";
+import MyFoodTriggers from "./MyFoodTriggers";
 
 
 function Search({ search, setSearch, food, setFood }) {
@@ -15,7 +16,7 @@ useEffect(()=>{
 },[])
 
 function addNewFood(newFoods){
-  setNewFoods(newFoods)
+  setNewFoods(newFoods) //we could set a new state for special foods and add it there
 }
 
 const foodToDisplay = food.filter(foods => foods.name.toLowerCase().includes(search.toLowerCase()))
@@ -36,6 +37,10 @@ const foodToDisplay = food.filter(foods => foods.name.toLowerCase().includes(sea
       {foodToDisplay.map(foods=>{
         return <Food key={foods.id} name={foods.name} chemicals={foods.chemicals}/>
       })}
+      <h3>Food Triggers!</h3>
+      <div name="triggers">
+        <MyFoodTriggers addNewFood={addNewFood} name={newFoods.name} chemicals={newFoods.chemicals} />
+      </div>
     </>
   );
 }
