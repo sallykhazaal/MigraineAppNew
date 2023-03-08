@@ -3,8 +3,7 @@ import {Form} from "semantic-ui-react"
 
 function FoodForm({addNewFood, setNewFoods, newFoods}){
     const[formName,setFormName]=useState("")
-  const[formChemicals, setFormChemicals]=useState("")
-  
+  const[formChemicals, setFormChemicals]=useState("") 
   function handleSubmit(e){
     e.preventDefault()
     const newFoods = {
@@ -23,20 +22,17 @@ function FoodForm({addNewFood, setNewFoods, newFoods}){
      setFormName("")
      setFormChemicals("")
   }
-
-
-
     return(
         <>
-        <h3>My Food Triggers</h3>
-        <Form
+        <h3 className="form-header">Search and Identify your Food Triggers</h3>
+        <Form className="form"
           onSubmit={handleSubmit}
         >
           <Form.Group widths="equal">
             <Form.Input onChange={(e)=>setFormName(e.target.value)} fluid label="Name" placeholder="Name" name="name" value={formName} />
             <Form.Input onChange={(e)=>setFormChemicals(e.target.value)}fluid label="Chemical" placeholder="Chemical" name="hp" value={formChemicals} />
           </Form.Group>
-          <Form.Button>Submit</Form.Button>
+          <Form.Button className="formsubmit">Submit</Form.Button>
         </Form>
         </>
     )

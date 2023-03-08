@@ -774,24 +774,14 @@
   ],
   "triggers": [
     {
-      "name": "sally",
-      "chemicals": "hello",
-      "id": 6
+      "name": "Brett Polacek",
+      "chemicals": "Chem x",
+      "id": 1
     },
     {
-      "name": "rbedrberbe",
-      "chemicals": "rtebedtbetb",
-      "id": 7
-    },
-    {
-      "name": "Eshwar",
-      "chemicals": "fbufnbiefnveriugfbned",
-      "id": 8
-    },
-    {
-      "name": "Another Food",
-      "chemicals": "Another Chemical",
-      "id": 9
+      "name": "ttgctgtg",
+      "chemicals": "ggvccggvgv",
+      "id": 2
     }
   ]
 }

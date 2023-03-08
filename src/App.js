@@ -5,6 +5,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import Search from "./components/Search";
 import ChemicalCollection from "./components/ChemicalCollection";
 import LabelReader from "./components/LabelReader";
+import Footer from "./Footer";
 
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
         <Link to="/reader">Label Reader</Link>
       </nav>
       <div className="buffer"></div>
-      <div>
       <Switch>
         <Route exact path="/">
           <ChemicalCollection chemicals={chemicals} setChemicals={setChemicals} />
@@ -39,7 +39,7 @@ function App() {
           <LabelReader food={food} />
         </Route>
       </Switch>
-      </div>
+      <Footer />
     </div>
   );
 }

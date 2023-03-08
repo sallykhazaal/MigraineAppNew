@@ -34,7 +34,7 @@ const foodToDisplay = food.filter(foods => foods.name.toLowerCase().includes(sea
     <>
       <FoodForm addNewFood={addNewFood} newFoods={newFoods} setNewFoods={setNewFoods}/>
       <div className="searchbar">
-        <label htmlFor="search">Search Food:</label>
+        <label htmlFor="search">Search Food Ingredients:</label>
         <input
           type="text"
           id="search"

@@ -15,8 +15,6 @@ function ChemicalCard({ name, image, food }) {
     meta={showFront ? "" : name}
     description={showFront ? "" : food}
   />
-
   );
 }
-
 export default ChemicalCard;

@@ -19,8 +19,7 @@ function MyFoodTriggers({addNewFood, name, chemicals, triggers ,setTriggers, han
              {"(" + chemicals + ")"}
              <button onClick={deleteTrigger} className="delete" type="button">Delete</button>
           </p>
-        </div>
-          
+        </div>    
     )
 }
 export default MyFoodTriggers;

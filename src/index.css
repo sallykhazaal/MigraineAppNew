@@ -21,12 +21,18 @@ code {
     display: flex;
     align-items: center;
     z-index: 100;
+    font-size: 20px;
+}
+.searchbar{
+  margin: 20px;
 }
 .buffer {
   height: 75px;
   width: 100%;
 }
-
+.formsubmit {
+  align-items: center;
+}
 .foods,
 .triggers {
   width: 45%;
@@ -39,7 +45,16 @@ code {
   border-radius: 10px;
   display: inline-block;
 }
-
+.form {
+  width: 95%;
+  margin-left: 20px;
+}
+.form-header{
+  margin-left: 30px;
+}
+.chem-card-header{
+  text-align: center;
+}
 .delete {
   position: relative;
   display: inline-block;
@@ -49,3 +64,22 @@ code {
   cursor: pointer;
   align-items: right;
 } 
+.footer {
+  margin-top: 15px;
+  height: 80px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(221, 240, 235);
+  font-size: larger;
+}
+.cards{
+  /* margin: 0 auto; */
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 60px;
+  gap : 10px
+
+}
