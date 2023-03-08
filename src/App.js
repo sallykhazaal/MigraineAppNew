@@ -5,7 +5,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import Search from "./components/Search";
 import ChemicalCollection from "./components/ChemicalCollection";
 import LabelReader from "./components/LabelReader";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 
 function App() {
