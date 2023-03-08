@@ -10,7 +10,6 @@ function FoodForm({addNewFood, setNewFoods, newFoods}){
     const newFoods = {
       name: formName,
       chemicals: formChemicals,
-
     }
     fetch("http://localhost:3000/triggers",{
       method:"POST",
@@ -21,8 +20,10 @@ function FoodForm({addNewFood, setNewFoods, newFoods}){
     })
     .then(res=>res.json())
     .then(data=>addNewFood(data))
-    console.log(newFoods)
+     setFormName("")
+     setFormChemicals("")
   }
+
 
 
     return(

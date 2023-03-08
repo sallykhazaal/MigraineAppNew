@@ -21,7 +21,8 @@ function App() {
         <Link to="/search">Searchable Food List</Link>
         <Link to="/reader">Label Reader</Link>
       </nav>
-
+      <div className="buffer"></div>
+      <div>
       <Switch>
         <Route exact path="/">
           <ChemicalCollection chemicals={chemicals} setChemicals={setChemicals} />
@@ -38,6 +39,7 @@ function App() {
           <LabelReader food={food} />
         </Route>
       </Switch>
+      </div>
     </div>
   );
 }

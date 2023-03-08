@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ .navBar {
+  height: 50px;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    background-color: #93e5e8;
+    transition: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.buffer {
+  height: 75px;
+  width: 100%;
+}
+
+.foods,
+.triggers {
+  width: 45%;
+  vertical-align: text-top;
+  background-color: lightgrey;
+  font-family: arial;
+  margin-left: 30px;
+  height: 80%;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.delete {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  align-items: right;
+} 
