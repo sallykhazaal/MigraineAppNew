@@ -4,15 +4,15 @@ import "./App.css";
 import { Switch, Route, Link } from "react-router-dom";
 import Search from "./components/Search";
 import ChemicalCollection from "./components/ChemicalCollection";
-import LabelReader from "./components/LabelReader";
+import IngredientsForm from "./components/IngredientsForm";
 import Footer from "./components/Footer";
 
 
 function App() {
-  const[food,setFood]=useState([])
+  const[foods,setFood]=useState([])
   const[chemicals,setChemicals]=useState([])
   const [search, setSearch] = useState("");
-  const foodsToDisplay = food.filter((food) =>
+  const foodsToDisplay = foods.filter((food) =>
     food.name.includes(search)
   );
   return (
@@ -20,7 +20,7 @@ function App() {
       <nav className="navBar">
         <Link className="link" to="/">Chemical Collection</Link>
         <Link className="link" to="/search">Searchable Food List</Link>
-        <Link className="link" to="/reader">Label Reader</Link>
+        <Link className="link" to="/reader">Ingredients Form</Link>
       </nav>
       <div className="buffer"></div>
       <Switch>
@@ -31,12 +31,12 @@ function App() {
           <Search
             search={search}
             setSearch={setSearch}
-            food={food}
+            food={foods}
             setFood={setFood}
           />
         </Route>
         <Route path="/reader">
-          <LabelReader food={food} />
+          <IngredientsForm food={foods} />
         </Route>
       </Switch>
       <Footer />
