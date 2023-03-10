@@ -14,7 +14,7 @@ function ChemicalCollection({chemicals, setChemicals}) {
   <Card.Group >
         { <ul className="cards">
             {chemicals.map((chemical) => {
-             return <ChemicalCard key={chemical.id} name={chemical.name} image={chemical.image} food={chemical.foods}/>;
+             return <ChemicalCard className="cardz" key={chemical.id} name={chemical.name} image={chemical.image} food={chemical.foods}/>;
            })}
         </ul>}
       </Card.Group> 

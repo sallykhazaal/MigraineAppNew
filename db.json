@@ -774,14 +774,39 @@
   ],
   "triggers": [
     {
-      "name": "Brett Polacek",
-      "chemicals": "Chem x",
+      "name": "Beets",
+      "chemicals": "Nitrates",
       "id": 1
     },
     {
-      "name": "ttgctgtg",
-      "chemicals": "ggvccggvgv",
+      "name": "Wine",
+      "chemicals": "Sulfates",
       "id": 2
+    },
+    {
+      "name": "Twizzlers",
+      "chemicals": "Histamine",
+      "id": 3
+    },
+    {
+      "name": "Cotton Candy",
+      "chemicals": "Histamine",
+      "id": 4
+    },
+    {
+      "name": "Pabst Blue Ribbon",
+      "chemicals": "Histamine, Tyramine",
+      "id": 5
+    },
+    {
+      "name": "Bacon",
+      "chemicals": "Histamine, Tyramine, Nitrates",
+      "id": 6
+    },
+    {
+      "name": "Spinach",
+      "chemicals": "Nitrites",
+      "id": 7
     }
   ]
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { ListItem, List } from "semantic-ui-react";
 
 function MyFoodTriggers({addNewFood, name, chemicals, triggers ,setTriggers, handleDelete, id}){
     function deleteTrigger(e){
@@ -13,13 +14,15 @@ function MyFoodTriggers({addNewFood, name, chemicals, triggers ,setTriggers, han
             .then(() => handleDelete(id))
     }
     return(
-        <div>
-         <p>
-             {name +" "}
-             {"(" + chemicals + ")"}
-             <button onClick={deleteTrigger} className="delete" type="button">Delete</button>
-          </p>
-        </div>    
+         <List animated verticalAlign='middle'>
+          <List.Item>
+           <List.Content>
+             <List.Header>{name}</List.Header>
+             <List.Description>{chemicals}</List.Description>
+             <ListItem> <button onClick={deleteTrigger} className="delete" type="button">Delete</button></ListItem>
+           </List.Content>
+         </List.Item>
+       </List>    
     )
 }
 export default MyFoodTriggers;

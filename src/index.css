@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -16,13 +17,21 @@ code {
     width: 100%;
     padding: 0;
     position: fixed;
-    background-color: #93e5e8;
+    background-color: #2C528C;
     transition: #fff;
     display: flex;
     align-items: center;
     z-index: 100;
     font-size: 20px;
 }
+.link{
+  color: #fff
+}
+
+.chemBody{
+  background-color: black;
+}
+
 .searchbar{
   margin: 20px;
 }
@@ -55,22 +64,13 @@ code {
 .chem-card-header{
   text-align: center;
 }
-.delete {
-  position: relative;
-  display: inline-block;
-  font-weight: 400;
-  white-space: nowrap;
-  text-align: center;
-  cursor: pointer;
-  align-items: right;
-} 
 .footer {
   margin-top: 15px;
-  height: 80px;
+  height: 100px;
   margin-bottom: 15px;
   text-align: center;
   width: 100%;
-  background-color: rgb(221, 240, 235);
+  background-color: #78C5EF;
   font-size: larger;
 }
 .cards{
@@ -82,4 +82,11 @@ code {
   padding: 0 60px;
   gap : 10px
 
+}
+.triggers,
+.foods{
+  background-color: #a9cfe8;
+}
+#root{
+  background-color: #def3fe;
 }

@@ -18,14 +18,14 @@ function App() {
   return (
     <div>
       <nav className="navBar">
-        <Link to="/">Chemical Collection</Link>
-        <Link to="/search">Searchable Food List</Link>
-        <Link to="/reader">Label Reader</Link>
+        <Link className="link" to="/">Chemical Collection</Link>
+        <Link className="link" to="/search">Searchable Food List</Link>
+        <Link className="link" to="/reader">Label Reader</Link>
       </nav>
       <div className="buffer"></div>
       <Switch>
         <Route exact path="/">
-          <ChemicalCollection chemicals={chemicals} setChemicals={setChemicals} />
+          <ChemicalCollection className = "chemBody" chemicals={chemicals} setChemicals={setChemicals} />
         </Route>
         <Route path="/search">
           <Search
